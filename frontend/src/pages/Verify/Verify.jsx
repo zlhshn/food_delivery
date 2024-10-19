@@ -1,10 +1,17 @@
-import React from 'react'
-import "./Verify.css"
+import React from 'react';
+import './Verify.css';
+import {useSearchParams} from 'react-router-dom';
 
-const Verify = () => {
-  return (
-    <div>Verify</div>
-  )
+
+const Verify =()=>{
+
+const  [searchParams,setSearchParams] = useSearchParams()
+
+    return (
+        <div>
+
+        </div>
+    )
 }
 
-export default Verify
+export default Verify;
