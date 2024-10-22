@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Home.css";
 import Header from "../../components/Header/Header";
 import ExplorerMenu from "../../components/ExplorerMenu/ExplorerMenu";
-import FoodDisplay from "../../components/foodDisplay/FoodDisplay";
+import FoodDisplay from "../../components/FoodDisplay/FoodDisplay";
 import AppDownload from "../../components/AppDownload/AppDownload";
 
 const Home = () => {
